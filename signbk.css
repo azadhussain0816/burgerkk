@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background: url(https://cdn.sanity.io/images/czqk28jt/prod_bk_us/05559a96f2617cd44b97f66df473b2a14ea5e331-2000x1000.png?w=1125&q=80&fit=max&auto=format) no-repeat center;
+}
+svg{
+    width: 200px;
+    height: 56px;
+    margin: auto;
+    margin-top: 60px;
+    display: block;
+    margin-bottom: 10px;
+}
+.npm{
+    background-color: #ffffff6a;
+    width: 500px;
+    font-size: 90px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form{
+    background-color: #ecdcc6e0;
+    width: 400px;
+    border-radius: 8px;
+    
+    padding:20px 18px 30px;
+    margin: 10px auto 0px;
+    box-shadow: 1px 1px 14px;;
+}
+.all{
+    width: 100%;
+}
+hr{
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+.signup{
+    font-size: 20px;
+}
+.tree{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.all{
+    padding: 9px 10px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+
+}
+.ye{
+    margin-top: -6px;
+    margin-bottom: 20px;
+}
+.min{
+    margin-top: -8px;
+    margin-bottom: 16px;
+}
+.btm{
+    color: black;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+.all:focus{
+    outline: 1px solid blue;
+    border: 1px solid blue;
+}
+input::placeholder {
+    color:transparent;
+    opacity: 1;
+}
+
+.azad:focus::placeholder{
+    color: black;
+    text-align: right;
+}
+input:focus{
+    border: transparent;
+}

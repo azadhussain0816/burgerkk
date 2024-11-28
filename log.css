@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    background: url(https://cdn.sanity.io/images/czqk28jt/prod_bk_us/46ba0458c61cd13ba0ba36f1abaa05c4e06b16c3-1200x1800.png?w=1125&q=80&fit=max&auto=format) no-repeat center;
+}
+#card2{
+    padding:19px 18px 20px;
+    margin: 2px auto;
+    background-color:#ecdcc6e0 ;
+    width: 400px;
+}
+#card{
+    background-color:#ecdcc6e0;
+    width: 400px;
+    padding:20px 18px 30px;
+    margin: 20px auto;
+    
+}
+h1{
+    color: #d62300;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input{
+    width: 100%;
+    padding: 1px 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+input:focus{
+    border: 1px solid lightblue;
+    outline: rgba(0, 0, 0, 0.162);
+}
+input[type]{
+    padding: 10px 20px;
+}
+
+button{
+    padding: 10px 168px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #4cb5f9;
+    border: none;
+}
+.pass{
+    text-align: center;
+    display: block;
+    color: #00376b;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
