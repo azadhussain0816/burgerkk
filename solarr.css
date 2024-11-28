@@ -1,0 +1,74 @@
+  body{
+    background-color: black;
+  }
+  .container {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    margin:  auto;
+    animation: rotate 10s linear infinite;
+  }
+  .sun{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    background: url(https://icon2.cleanpng.com/20240127/sly/transparent-sun-rays-smiling-sun-with-shining-rays-on-dark-1710898233491.webp) no-repeat center/cover;
+    border-radius: 50%;
+  }
+  
+  .moon {
+    animation: rotate 1s linear infinite;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translatey(-50%);
+    width: 45px;
+    height: 45px;
+    background: url(https://icon2.cleanpng.com/20180528/ha/avpd3m6n9.webp) no-repeat center/cover;
+    border-radius: 50%;
+  }
+  .pl {
+    animation: rotate 1s linear infinite;
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: url(https://icon2.cleanpng.com/20180611/vev/aa8nbqhlc.webp) no-repeat center/cover;
+    border-radius: 50%;
+  }
+  
+  .earth{
+    animation: rotate 1s linear infinite;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: url(https://icon2.cleanpng.com/20180327/bpe/avdlf36y0.webp) no-repeat center/cover;
+    border-radius: 50%;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  
